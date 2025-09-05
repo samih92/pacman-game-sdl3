@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\Windows 11\Documents\Visual Studio 2022\Pacman_game_SDL3\Pacman_game_SDL3\main.cpp(8,14): warning C4804: '<': unsafe use of type 'bool' in operation
+  Pacman_game_SDL3.vcxproj -> C:\Users\Windows 11\Documents\Visual Studio 2022\Pacman_game_SDL3\x64\Debug\Pacman_game_SDL3.exe
