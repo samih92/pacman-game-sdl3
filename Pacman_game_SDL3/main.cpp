@@ -5,6 +5,23 @@
 using namespace std;
 
 int main() {
+
+	unsigned char red = 0xFF;
+	unsigned char green = 0x00;
+	unsigned char blue = 0x00;
+	unsigned char alpha = 0x00;
+
+	unsigned int color = 0;
+	color += red;
+	color <<= 8;
+	color += green;
+	color <<= 8;
+	color += blue;
+	color <<= 8;
+	color += alpha;
+	
+	cout << hex << color << endl;
+
 	const int SCREEN_WIDTH = 800;
 	const int SCREEN_HEIGHT = 600;
 
@@ -37,8 +54,13 @@ int main() {
 	}
 
 	Uint32* buffer = new Uint32[SCREEN_WIDTH * SCREEN_HEIGHT];
+	
 
-	memset(buffer,155, SCREEN_WIDTH * SCREEN_HEIGHT * sizeof(Uint32));
+	//memset(buffer,0, SCREEN_WIDTH * SCREEN_HEIGHT * sizeof(Uint32));
+	
+	for (int i = 0; i < SCREEN_WIDTH * SCREEN_HEIGHT; i++) {
+		buffer[i] = color;
+	}
 
 	SDL_UpdateTexture(texture, NULL, buffer, SCREEN_WIDTH * sizeof(Uint32));
 	SDL_RenderClear(renderer);
