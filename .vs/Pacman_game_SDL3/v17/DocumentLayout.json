@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Windows 11\\Documents\\Visual Studio 2022\\Pacman_game_SDL3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7AD21F68-12EA-4EB1-9F42-AE94F9F3242E}|Pacman_game_SDL3\\Pacman_game_SDL3.vcxproj|C:\\Users\\Windows 11\\Documents\\Visual Studio 2022\\Pacman_game_SDL3\\Pacman_game_SDL3\\Screen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7AD21F68-12EA-4EB1-9F42-AE94F9F3242E}|Pacman_game_SDL3\\Pacman_game_SDL3.vcxproj|solutionrelative:Pacman_game_SDL3\\Screen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7AD21F68-12EA-4EB1-9F42-AE94F9F3242E}|Pacman_game_SDL3\\Pacman_game_SDL3.vcxproj|C:\\Users\\Windows 11\\Documents\\Visual Studio 2022\\Pacman_game_SDL3\\Pacman_game_SDL3\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7AD21F68-12EA-4EB1-9F42-AE94F9F3242E}|Pacman_game_SDL3\\Pacman_game_SDL3.vcxproj|solutionrelative:Pacman_game_SDL3\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AD21F68-12EA-4EB1-9F42-AE94F9F3242E}|Pacman_game_SDL3\\Pacman_game_SDL3.vcxproj|C:\\Users\\Windows 11\\Documents\\Visual Studio 2022\\Pacman_game_SDL3\\Pacman_game_SDL3\\Screen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7AD21F68-12EA-4EB1-9F42-AE94F9F3242E}|Pacman_game_SDL3\\Pacman_game_SDL3.vcxproj|solutionrelative:Pacman_game_SDL3\\Screen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Screen.h",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\Documents\\Visual Studio 2022\\Pacman_game_SDL3\\Pacman_game_SDL3\\Screen.h",
+              "RelativeDocumentMoniker": "Pacman_game_SDL3\\Screen.h",
+              "ToolTip": "C:\\Users\\Windows 11\\Documents\\Visual Studio 2022\\Pacman_game_SDL3\\Pacman_game_SDL3\\Screen.h",
+              "RelativeToolTip": "Pacman_game_SDL3\\Screen.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-20T23:32:05.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Screen.cpp",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\Documents\\Visual Studio 2022\\Pacman_game_SDL3\\Pacman_game_SDL3\\Screen.cpp",
+              "RelativeDocumentMoniker": "Pacman_game_SDL3\\Screen.cpp",
+              "ToolTip": "C:\\Users\\Windows 11\\Documents\\Visual Studio 2022\\Pacman_game_SDL3\\Pacman_game_SDL3\\Screen.cpp",
+              "RelativeToolTip": "Pacman_game_SDL3\\Screen.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-20T23:32:10.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Windows 11\\Documents\\Visual Studio 2022\\Pacman_game_SDL3\\Pacman_game_SDL3\\main.cpp",
               "RelativeDocumentMoniker": "Pacman_game_SDL3\\main.cpp",
               "ToolTip": "C:\\Users\\Windows 11\\Documents\\Visual Studio 2022\\Pacman_game_SDL3\\Pacman_game_SDL3\\main.cpp",
               "RelativeToolTip": "Pacman_game_SDL3\\main.cpp",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAbAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-04T02:38:51.667Z",
               "EditorCaption": ""
