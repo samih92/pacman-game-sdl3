@@ -10,6 +10,7 @@ Screen::Screen() {
 }
 
 void Screen::setColor(Uint8 red, Uint8 green, Uint8 blue) {
+	color = 0;
 	color += red;
 	color <<= 8;
 	color += green;
@@ -28,10 +29,26 @@ bool Screen::processEvents() {
 	}
 }
 
-void Screen::setBuffer() {
+void Screen::setBackgroundColor(Uint8 red, Uint8 green, Uint8 blue) {
+	setColor(red, green, blue);
 	for (int i = 0; i < SCREEN_WIDTH * SCREEN_HEIGHT; i++) {
 		buffer[i] = color;
 	}
+}
+
+void Screen::drawObject() {
+	setColor(0, 0, 0);
+	motion+=0.5;
+	cout << motion << endl;
+	
+	for (int y = 0; y < 100; y++) {
+		for (int x = 0+motion; x < 100+motion; x++) {
+			if (x < 700) {
+				buffer[(y * SCREEN_WIDTH) + x] = color;
+			}
+		}
+	}
+	
 }
 
 void Screen::initializeScreen() {
@@ -58,6 +75,7 @@ void Screen::initializeScreen() {
 		cout << "Could not create texture" << endl;
 		deleteScreen();
 	}
+
 }
 
 void Screen::updateScreen() {
@@ -68,7 +86,6 @@ void Screen::updateScreen() {
 }
 
 void Screen::deleteScreen() {
-	cout << "calling delete" << endl;
 	delete[] buffer;
 	SDL_DestroyRenderer(renderer);
 	SDL_DestroyTexture(texture);
