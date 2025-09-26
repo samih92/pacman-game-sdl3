@@ -16,7 +16,7 @@ private:
 	SDL_Texture* texture;
 	Uint32 color = 0;
 	SDL_Event event;
-	double motion = 0;
+	
 
 public:
 	Screen();

@@ -38,11 +38,8 @@ void Screen::setBackgroundColor(Uint8 red, Uint8 green, Uint8 blue) {
 
 void Screen::drawObject() {
 	setColor(0, 0, 0);
-	motion+=0.5;
-	cout << motion << endl;
-	
 	for (int y = 0; y < 100; y++) {
-		for (int x = 0+motion; x < 100+motion; x++) {
+		for (int x = 0; x < 100; x++) {
 			if (x < 700) {
 				buffer[(y * SCREEN_WIDTH) + x] = color;
 			}
